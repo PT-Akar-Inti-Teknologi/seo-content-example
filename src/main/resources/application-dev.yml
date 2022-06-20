@@ -1,0 +1,9 @@
+#Profile: dev
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/seo_example
+    username: postgres
+    password: postgres
+  flyway:
+    enabled: false
+    baseline-on-migrate: true
